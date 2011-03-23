@@ -54,10 +54,10 @@ class PTorchPlayerListener extends PlayerListener {
 	@Override
 	public void onPlayerToggleSneak(PlayerToggleSneakEvent event)
 	{
-		if(PTorch.isLit(event.getPlayer()))
-		{
-			PTorch.extinguish(event.getPlayer());	
-		}
+		//if(PTorch.isLit(event.getPlayer()))
+		//{
+		//	PTorch.extinguish(event.getPlayer());	
+	//	}
 	}
 	/*
 	@Override
